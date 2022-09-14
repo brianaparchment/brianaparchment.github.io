@@ -1,0 +1,100 @@
+.menu {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 5%;
+}
+
+li {
+    display: inline;
+    display: inline-block;
+}
+
+li a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.linkedIn_icon {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 11px;
+    width: 20px;
+    height: 20px;
+}
+
+.git_icon {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 11px;
+    width: 20px;
+    height: 20px;
+}
+
+.email_icon {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 11px;
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: #111;
+}
+
+.main {
+    padding: 10px;
+    margin-top: 100px;
+}
+.intro_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;
+    top: 5vw;
+}
+.me_img {
+    flex: 1;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px 100px;
+    margin-top: 0px;
+    margin-left: 200px;
+    float: left;
+
+}
+
+.profile_img {
+    padding: 10%;
+    margin-top: 20px;
+
+}
+
+.intro {
+   width: 30vw;
+    float: right;
+    margin-top: 200px;
+    line-height: 30px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
